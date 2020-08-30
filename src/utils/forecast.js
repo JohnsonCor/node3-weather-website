@@ -2,7 +2,7 @@ require("dotenv").config();
 const request = require("request");
 
 // const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
-const WEATHER_API_KEY = ab4bb12db7014af34d69c8fd49d08cc0;
+const WEATHER_API_KEY = "ab4bb12db7014af34d69c8fd49d08cc0";
 
 const forcast = (latitude, longitude, callback) => {
   const url =
